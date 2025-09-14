@@ -3,10 +3,10 @@
 
 int main()
 {
-	int number,guess,speed,attempts=0;
+	int number,guess,seed,attempts=0;
 	printf("Enter any number of your choice as speed: ");
-	scanf("%d",&speed);
-	number=(speed*3+7)%100+1;
+	scanf("%d",&seed);
+	number=(seed*3+7)%100+1;
 	printf("Welcom to the number guessing game!\n");
 	printf("Guess the number between 1 and 100\n");
 	do
@@ -29,3 +29,4 @@ int main()
 	}while(guess!=number);
 	return 0;
 }
+
