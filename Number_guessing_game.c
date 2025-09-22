@@ -4,7 +4,7 @@
 int main()
 {
 	int number,guess,seed,attempts=0;
-	printf("Enter any number of your choice as speed: ");
+	printf("Enter any number of your choice as seed: ");
 	scanf("%d",&seed);
 	number=(seed*3+7)%100+1;
 	printf("Welcom to the number guessing game!\n");
@@ -29,4 +29,5 @@ int main()
 	}while(guess!=number);
 	return 0;
 }
+
 
